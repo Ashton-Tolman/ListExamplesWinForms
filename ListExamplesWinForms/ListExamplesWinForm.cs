@@ -14,6 +14,8 @@ namespace ListExamplesWinForms
             names.Add("oaky");
             names.Add("Hayley");
             this.Text = names.Count.ToString();
+            names.Remove("Shayla");
+            this.Text = Name.Count().ToString();
             //Console.WriteLine(names.Count);
 
         }

@@ -6,5 +6,10 @@ namespace ListExamplesWinForms
         {
             InitializeComponent();
         }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

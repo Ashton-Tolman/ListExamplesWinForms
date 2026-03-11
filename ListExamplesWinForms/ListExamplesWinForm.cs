@@ -20,6 +20,11 @@ namespace ListExamplesWinForms
 
         }
 
+        void AddItemToListBox()
+        {
+            DisplayListBox.Items.Add(FirstNameTextBox.Text);
+        }
+
         //Event handlers below---------------------------------
 
         private void ExitButton_Click(object sender, EventArgs e)
@@ -29,7 +34,8 @@ namespace ListExamplesWinForms
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
-            ListExampleMethod();
+            //ListExampleMethod();
+            AddItemToListBox();
         }
 
         private void ClearButton_Click(object sender, EventArgs e)

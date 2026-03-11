@@ -154,6 +154,7 @@
             DisplayListBox.Name = "DisplayListBox";
             DisplayListBox.Size = new Size(472, 279);
             DisplayListBox.TabIndex = 1;
+            DisplayListBox.SelectedIndexChanged += DisplayListBox_SelectedIndexChanged;
             // 
             // SelectionComboBox
             // 
@@ -162,6 +163,7 @@
             SelectionComboBox.Name = "SelectionComboBox";
             SelectionComboBox.Size = new Size(182, 33);
             SelectionComboBox.TabIndex = 0;
+            SelectionComboBox.SelectedIndexChanged += SelectionComboBox_SelectedIndexChanged;
             // 
             // ListExamplesWinForm
             // 
@@ -174,6 +176,7 @@
             Controls.Add(SubmitButton);
             Controls.Add(ExitButton);
             Name = "ListExamplesWinForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "List Example";
             InfoGroupbox.ResumeLayout(false);
             InfoGroupbox.PerformLayout();

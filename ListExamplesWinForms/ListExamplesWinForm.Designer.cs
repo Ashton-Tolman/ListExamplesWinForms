@@ -104,6 +104,7 @@
             CompanyTextBox.Name = "CompanyTextBox";
             CompanyTextBox.Size = new Size(140, 31);
             CompanyTextBox.TabIndex = 8;
+            CompanyTextBox.TextChanged += CompanyTextBox_TextChanged;
             // 
             // LastNameLabel
             // 
@@ -120,6 +121,7 @@
             LastNameTextBox.Name = "LastNameTextBox";
             LastNameTextBox.Size = new Size(140, 31);
             LastNameTextBox.TabIndex = 6;
+            LastNameTextBox.TextChanged += LastNameTextBox_TextChanged;
             // 
             // FirstNameLabel
             // 
@@ -136,6 +138,7 @@
             FirstNameTextBox.Name = "FirstNameTextBox";
             FirstNameTextBox.Size = new Size(140, 31);
             FirstNameTextBox.TabIndex = 4;
+            FirstNameTextBox.TextChanged += FirstNameTextBox_TextChanged;
             // 
             // OutputGroupBox
             // 

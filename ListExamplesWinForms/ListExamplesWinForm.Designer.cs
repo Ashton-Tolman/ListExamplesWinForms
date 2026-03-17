@@ -152,10 +152,11 @@
             // 
             // DisplayListBox
             // 
+            DisplayListBox.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             DisplayListBox.FormattingEnabled = true;
             DisplayListBox.Location = new Point(8, 70);
             DisplayListBox.Name = "DisplayListBox";
-            DisplayListBox.Size = new Size(472, 279);
+            DisplayListBox.Size = new Size(472, 268);
             DisplayListBox.TabIndex = 1;
             DisplayListBox.SelectedIndexChanged += DisplayListBox_SelectedIndexChanged;
             // 
